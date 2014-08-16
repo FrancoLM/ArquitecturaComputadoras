@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\ISE Projects\Clase02\Multi_comp_flip_flop.ncd
+OUTFILE=C:\ISE Projects\Clase02\Multi_comp_flip_flop.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\ISE Projects\Clase02
+LICENSE=WebPack
+USER_INFO=210790732_0_0_551

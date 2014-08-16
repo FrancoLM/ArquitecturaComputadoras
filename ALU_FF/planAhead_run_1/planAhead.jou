@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Sep 04 20:31:24 2013
+# Process ID: 6992
+# Log file: C:/ISE Projects/ALU_FF/planAhead_run_1/planAhead.log
+# Journal file: C:/ISE Projects/ALU_FF/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/ISE Projects/ALU_FF/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {result[7]}]]
+startgroup
+set_property package_pin G1 [get_ports {result[0]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {result[1]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {result[2]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {result[3]}]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports {result[4]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {result[5]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {result[6]}]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports {result[7]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {entrada[0]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {entrada[1]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {entrada[2]}]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports {entrada[3]}]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports {entrada[4]}]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports {entrada[5]}]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports {entrada[6]}]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports b1]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports b2]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports b3]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {result[3]}]
+endgroup
+save_constraints

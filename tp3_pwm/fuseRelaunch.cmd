@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/ISE Projects/tp3_pwm/pwm_test_bench_isim_beh.exe" -prj "C:/ISE Projects/tp3_pwm/pwm_test_bench_beh.prj" "work.pwm_test_bench" "work.glbl" 

@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/memoria.v"
+verilog work "test_memoria.v"
+verilog work "memoria_test_bench.v"
+verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

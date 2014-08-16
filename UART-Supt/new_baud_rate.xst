@@ -1,0 +1,5 @@
+set -tmpdir "F:/Arquitectura/UART/xst/projnav.tmp"
+set -xsthdpdir "F:/Arquitectura/UART/xst"
+elaborate
+-ifn new_baud_rate.prj
+-ifmt mixed

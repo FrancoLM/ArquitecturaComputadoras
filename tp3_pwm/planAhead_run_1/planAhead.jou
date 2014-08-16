@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Sep 11 20:07:35 2013
+# Process ID: 17452
+# Log file: C:/ISE Projects/tp3_pwm/planAhead_run_1/planAhead.log
+# Journal file: C:/ISE Projects/tp3_pwm/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/ISE Projects/tp3_pwm/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {rate[0]}]]
+startgroup
+set_property package_pin B4 [get_ports {rate[3]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {rate[2]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {rate[1]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {rate[0]}]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports salida]
+endgroup
+save_constraints

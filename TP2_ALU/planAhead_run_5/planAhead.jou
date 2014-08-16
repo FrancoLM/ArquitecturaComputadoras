@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Aug 28 20:44:43 2013
+# Process ID: 10688
+# Log file: C:/ISE Projects/TP2_ALU/planAhead_run_5/planAhead.log
+# Journal file: C:/ISE Projects/TP2_ALU/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/ISE Projects/TP2_ALU/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {result[7]}]]
+set_property package_pin "" [get_ports [list  {result[7]}]]
+set_property iostandard LVCMOS25 [get_ports [list {dataA[6]}]]
+set_property package_pin "" [get_ports [list  {dataA[6]}]]
+startgroup
+set_property package_pin N3 [get_ports {dataA[0]}]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports {dataA[1]}]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports {dataA[2]}]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports {dataA[3]}]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports {dataB[0]}]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports {dataB[1]}]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports {dataB[2]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {dataB[3]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {dataB[3]}]]
+set_property is_loc_fixed true [get_ports [list  {dataB[3]}]]
+save_constraints
+startgroup
+set_property package_pin M5 [get_ports {result[7]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {result[6]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {result[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {result[3]}]]
+set_property package_pin "" [get_ports [list  {result[2]}]]
+set_property package_pin "" [get_ports [list  {result[3]}]]
+startgroup
+set_property package_pin P6 [get_ports {result[4]}]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports {result[3]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {result[2]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {result[1]}]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports {result[0]}]
+endgroup
+save_constraints

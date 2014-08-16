@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\ISE Projects\ALU_FF\impact.xsl
+OUTFILE=C:\ISE Projects\ALU_FF\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\ISE Projects\ALU_FF
+LICENSE=iMPACT
+USER_INFO=iMPACT

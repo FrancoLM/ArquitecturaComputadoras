@@ -1,0 +1,220 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml ALU_module.twx ALU_module.ncd -o ALU_module.twr
+ALU_module.pcf -ucf ALU_module.ucf
+
+Design file:              ALU_module.ncd
+Physical constraint file: ALU_module.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+dataA<0>       |result<0>      |    9.861|
+dataA<0>       |result<1>      |    9.998|
+dataA<0>       |result<2>      |   10.096|
+dataA<0>       |result<3>      |   10.306|
+dataA<0>       |result<4>      |   10.867|
+dataA<0>       |result<5>      |   11.111|
+dataA<0>       |result<6>      |   10.411|
+dataA<0>       |result<7>      |   11.306|
+dataA<1>       |result<0>      |    8.875|
+dataA<1>       |result<1>      |    9.830|
+dataA<1>       |result<2>      |    9.393|
+dataA<1>       |result<3>      |    9.797|
+dataA<1>       |result<4>      |   10.164|
+dataA<1>       |result<5>      |   10.628|
+dataA<1>       |result<6>      |    9.928|
+dataA<1>       |result<7>      |   10.744|
+dataA<2>       |result<0>      |    9.272|
+dataA<2>       |result<1>      |   10.000|
+dataA<2>       |result<2>      |    9.685|
+dataA<2>       |result<3>      |    9.425|
+dataA<2>       |result<4>      |   10.029|
+dataA<2>       |result<5>      |   10.493|
+dataA<2>       |result<6>      |    9.793|
+dataA<2>       |result<7>      |   10.609|
+dataA<3>       |result<0>      |    8.200|
+dataA<3>       |result<1>      |    9.285|
+dataA<3>       |result<2>      |    8.868|
+dataA<3>       |result<3>      |    9.317|
+dataA<3>       |result<4>      |   10.004|
+dataA<3>       |result<5>      |   10.237|
+dataA<3>       |result<6>      |    9.537|
+dataA<3>       |result<7>      |   10.443|
+dataA<4>       |result<0>      |    9.017|
+dataA<4>       |result<1>      |    9.250|
+dataA<4>       |result<2>      |    9.403|
+dataA<4>       |result<3>      |    8.925|
+dataA<4>       |result<4>      |    9.871|
+dataA<4>       |result<5>      |   10.184|
+dataA<4>       |result<6>      |    9.668|
+dataA<4>       |result<7>      |   10.642|
+dataA<5>       |result<0>      |    8.586|
+dataA<5>       |result<1>      |    9.869|
+dataA<5>       |result<2>      |    8.631|
+dataA<5>       |result<3>      |    9.080|
+dataA<5>       |result<4>      |    8.914|
+dataA<5>       |result<5>      |   10.724|
+dataA<5>       |result<6>      |    9.560|
+dataA<5>       |result<7>      |   10.497|
+dataA<6>       |result<0>      |    9.667|
+dataA<6>       |result<1>      |    9.665|
+dataA<6>       |result<2>      |    9.847|
+dataA<6>       |result<3>      |    9.575|
+dataA<6>       |result<4>      |    9.995|
+dataA<6>       |result<5>      |   10.520|
+dataA<6>       |result<6>      |   10.202|
+dataA<6>       |result<7>      |   10.158|
+dataB<0>       |result<0>      |    9.436|
+dataB<0>       |result<1>      |    9.927|
+dataB<0>       |result<2>      |   10.266|
+dataB<0>       |result<3>      |   10.209|
+dataB<0>       |result<4>      |   10.523|
+dataB<0>       |result<5>      |   11.040|
+dataB<0>       |result<6>      |   10.347|
+dataB<0>       |result<7>      |   11.156|
+dataB<1>       |result<0>      |    9.765|
+dataB<1>       |result<1>      |    9.864|
+dataB<1>       |result<2>      |   10.096|
+dataB<1>       |result<3>      |   10.107|
+dataB<1>       |result<4>      |   10.668|
+dataB<1>       |result<5>      |   10.886|
+dataB<1>       |result<6>      |   10.354|
+dataB<1>       |result<7>      |   11.107|
+dataB<2>       |result<0>      |    9.881|
+dataB<2>       |result<1>      |    8.900|
+dataB<2>       |result<2>      |   10.038|
+dataB<2>       |result<3>      |   10.353|
+dataB<2>       |result<4>      |   10.290|
+dataB<2>       |result<5>      |   10.599|
+dataB<2>       |result<6>      |   10.225|
+dataB<2>       |result<7>      |   10.715|
+dataB<3>       |result<0>      |   11.183|
+dataB<3>       |result<1>      |   12.601|
+dataB<3>       |result<2>      |   10.904|
+dataB<3>       |result<3>      |   13.131|
+dataB<3>       |result<4>      |   13.068|
+dataB<3>       |result<5>      |   12.776|
+dataB<3>       |result<6>      |   13.358|
+dataB<3>       |result<7>      |   11.684|
+dataB<4>       |result<0>      |    8.960|
+dataB<4>       |result<1>      |   10.378|
+dataB<4>       |result<2>      |    8.681|
+dataB<4>       |result<3>      |   10.908|
+dataB<4>       |result<4>      |   10.845|
+dataB<4>       |result<5>      |   10.553|
+dataB<4>       |result<6>      |   11.135|
+dataB<4>       |result<7>      |   10.148|
+dataB<5>       |result<0>      |    9.543|
+dataB<5>       |result<1>      |   10.961|
+dataB<5>       |result<2>      |    9.264|
+dataB<5>       |result<3>      |   11.491|
+dataB<5>       |result<4>      |   11.428|
+dataB<5>       |result<5>      |   11.136|
+dataB<5>       |result<6>      |   11.718|
+dataB<5>       |result<7>      |   10.221|
+dataB<6>       |result<0>      |    9.438|
+dataB<6>       |result<1>      |   10.856|
+dataB<6>       |result<2>      |    9.159|
+dataB<6>       |result<3>      |   11.386|
+dataB<6>       |result<4>      |   11.323|
+dataB<6>       |result<5>      |   11.031|
+dataB<6>       |result<6>      |   11.613|
+dataB<6>       |result<7>      |    9.890|
+operation<0>   |result<0>      |    8.203|
+operation<0>   |result<1>      |    9.823|
+operation<0>   |result<2>      |    9.708|
+operation<0>   |result<3>      |    9.428|
+operation<0>   |result<4>      |   10.447|
+operation<0>   |result<5>      |   10.279|
+operation<0>   |result<6>      |    9.798|
+operation<0>   |result<7>      |    8.729|
+operation<1>   |result<0>      |    9.528|
+operation<1>   |result<1>      |   10.946|
+operation<1>   |result<2>      |    9.249|
+operation<1>   |result<3>      |   11.476|
+operation<1>   |result<4>      |   11.413|
+operation<1>   |result<5>      |   11.121|
+operation<1>   |result<6>      |   11.703|
+operation<1>   |result<7>      |    9.762|
+operation<2>   |result<0>      |    9.124|
+operation<2>   |result<1>      |   10.542|
+operation<2>   |result<2>      |    9.352|
+operation<2>   |result<3>      |   11.072|
+operation<2>   |result<4>      |   11.009|
+operation<2>   |result<5>      |   10.717|
+operation<2>   |result<6>      |   11.299|
+operation<2>   |result<7>      |    8.388|
+operation<3>   |result<0>      |    6.092|
+operation<3>   |result<1>      |    7.341|
+operation<3>   |result<2>      |    7.135|
+operation<3>   |result<3>      |    7.294|
+operation<3>   |result<4>      |    7.963|
+operation<3>   |result<5>      |    8.017|
+operation<3>   |result<6>      |    7.280|
+operation<3>   |result<7>      |    7.730|
+operation<4>   |result<0>      |    6.267|
+operation<4>   |result<1>      |    7.036|
+operation<4>   |result<2>      |    6.850|
+operation<4>   |result<3>      |    7.251|
+operation<4>   |result<4>      |    7.497|
+operation<4>   |result<5>      |    7.795|
+operation<4>   |result<6>      |    7.314|
+operation<4>   |result<7>      |    7.264|
+operation<5>   |result<0>      |    9.540|
+operation<5>   |result<1>      |   10.958|
+operation<5>   |result<2>      |    9.302|
+operation<5>   |result<3>      |   11.488|
+operation<5>   |result<4>      |   11.425|
+operation<5>   |result<5>      |   11.133|
+operation<5>   |result<6>      |   11.715|
+operation<5>   |result<7>      |    7.688|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Sep 04 19:10:54 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 151 MB
+
+
+

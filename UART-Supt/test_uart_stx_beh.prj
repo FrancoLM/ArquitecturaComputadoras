@@ -1,0 +1,7 @@
+verilog isim_temp "Tx.v"
+verilog isim_temp "Rx.v"
+verilog isim_temp "new_baud_rate.v"
+verilog isim_temp "FIFO.v"
+verilog isim_temp "uart.v"
+verilog isim_temp "test_uart.v"
+verilog isim_temp "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

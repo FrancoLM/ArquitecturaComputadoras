@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Aug 28 20:03:39 2013
+
+drc -z Multi_comp_flip_flop.ncd Multi_comp_flip_flop.pcf
+
+DRC detected 0 errors and 0 warnings.

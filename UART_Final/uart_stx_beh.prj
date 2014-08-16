@@ -1,0 +1,6 @@
+verilog isim_temp "uart_tx.v"
+verilog isim_temp "uart_rx.v"
+verilog isim_temp "mod_m_counter.v"
+verilog isim_temp "flag_buf.v"
+verilog isim_temp "uart.v"
+verilog isim_temp "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

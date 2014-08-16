@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\ISE Projects\Memoria\test_memoria.ncd
+OUTFILE=C:\ISE Projects\Memoria\test_memoria.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\ISE Projects\Memoria
+LICENSE=WebPack
+USER_INFO=210790732_0_0_551

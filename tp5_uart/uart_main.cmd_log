@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/ISE Projects/tp5_uart/uart_main.xst" -ofn "C:/ISE Projects/tp5_uart/uart_main.syr" 
+xst -intstyle ise -ifn "C:/ISE Projects/tp5_uart/uart_main.xst" -ofn "C:/ISE Projects/tp5_uart/uart_main.syr" 
+xst -intstyle ise -ifn "C:/ISE Projects/tp5_uart/uart_main.xst" -ofn "C:/ISE Projects/tp5_uart/uart_main.syr" 
+xst -intstyle ise -ifn "C:/ISE Projects/tp5_uart/uart_main.xst" -ofn "C:/ISE Projects/tp5_uart/uart_main.syr" 

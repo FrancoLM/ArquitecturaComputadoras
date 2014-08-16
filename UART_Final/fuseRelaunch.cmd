@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/ISE Projects/UART_Final/test_uart_2_isim_beh.exe" -prj "C:/ISE Projects/UART_Final/test_uart_2_beh.prj" "work.test_uart_2" "work.glbl" 

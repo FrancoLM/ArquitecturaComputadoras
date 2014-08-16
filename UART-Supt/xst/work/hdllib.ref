@@ -1,0 +1,8 @@
+MO FIFO NULL FIFO.v vlg7C/_f_i_f_o.bin 1383780482
+MO baud_rate NULL new_baud_rate.v vlg3B/baud__rate.bin 1383780482
+MO new_baud_rate NULL new_baud_rate.v vlg74/new__baud__rate.bin 1352915740
+MO Rx NULL Rx.v vlg12/_rx.bin 1383780482
+MO Tx NULL Tx.v vlg1C/_tx.bin 1383780482
+MO uart NULL uart.v vlg48/uart.bin 1383780482
+MO mod_m_counter NULL mod-m-counter.v vlg1F/mod__m__counter.bin 1352839164
+MO BaudRateGenerator NULL BaudRateGenerator.v vlg4B/_baud_rate_generator.bin 1352839164

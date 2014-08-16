@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Sep 11 20:36:19 2013
+# Process ID: 11256
+# Log file: C:/ISE Projects/tp3_pwm/planAhead_run_3/planAhead.log
+# Journal file: C:/ISE Projects/tp3_pwm/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/ISE Projects/tp3_pwm/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C8 [get_ports clk]
+endgroup
+save_constraints

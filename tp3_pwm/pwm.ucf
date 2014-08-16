@@ -1,0 +1,10 @@
+
+
+NET "rate[3]" LOC = B4;
+NET "rate[2]" LOC = K3;
+NET "rate[1]" LOC = L3;
+NET "rate[0]" LOC = P11;
+NET "salida" LOC = M5;
+
+
+NET "clk" LOC = B8;

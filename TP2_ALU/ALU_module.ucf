@@ -1,0 +1,23 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "dataA[6]" IOSTANDARD = LVCMOS25;
+
+# PlanAhead Generated physical constraints 
+
+NET "dataA[0]" LOC = N3;
+NET "dataA[1]" LOC = E2;
+NET "dataA[2]" LOC = F3;
+NET "dataA[3]" LOC = G3;
+NET "dataB[0]" LOC = B4;
+NET "dataB[1]" LOC = K3;
+NET "dataB[2]" LOC = L3;
+NET "dataB[3]" LOC = P11;
+NET "result[7]" LOC = M5;
+NET "result[6]" LOC = M11;
+NET "result[5]" LOC = P7;
+NET "result[4]" LOC = P6;
+NET "result[3]" LOC = N5;
+NET "result[2]" LOC = N4;
+NET "result[1]" LOC = P4;
+NET "result[0]" LOC = G1;

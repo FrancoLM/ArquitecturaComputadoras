@@ -1,0 +1,5 @@
+verilog work "Tx.v"
+verilog work "Rx.v"
+verilog work "new_baud_rate.v"
+verilog work "FIFO.v"
+verilog work "uart.v"

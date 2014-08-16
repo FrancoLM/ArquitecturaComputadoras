@@ -1,0 +1,25 @@
+
+# PlanAhead Generated physical constrain
+
+NET "result[7]" LOC = G1;
+NET "result[6]" LOC = P4;
+NET "result[5]" LOC = N4;
+NET "result[4]" LOC = N5;
+NET "result[3]" LOC = P6;
+NET "result[2]" LOC = P7;
+NET "result[1]" LOC = M11;
+NET "result[0]" LOC = M5;
+
+NET "entrada[7]" LOC = N3;
+NET "entrada[6]" LOC = E2;
+NET "entrada[5]" LOC = F3;
+NET "entrada[4]" LOC = G3;
+NET "entrada[3]" LOC = B4;
+NET "entrada[2]" LOC = K3;
+NET "entrada[1]" LOC = L3;
+NET "entrada[0]" LOC = P11;
+
+NET "b1" LOC = A7;
+NET "b2" LOC = M4;
+NET "b3" LOC = C11;
+

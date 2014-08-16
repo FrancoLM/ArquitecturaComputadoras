@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Memoria.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="memoria_test_bench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="memoria_test_bench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="memoria_test_bench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="memoria_test_bench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_memoria.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="test_memoria.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="test_memoria.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="test_memoria_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1387512520" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1387512520">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1387512773" xil_pn:in_ck="530006229412040633" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1387512772">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="memoria_test_bench.v"/>
+      <outfile xil_pn:name="test_memoria.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1387512527" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3323236882091679647" xil_pn:start_ts="1387512527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1387512527" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7093764994822719905" xil_pn:start_ts="1387512527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1387512530" xil_pn:in_ck="3980669207300401169" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="237671172841948780" xil_pn:start_ts="1387512527">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/memoria.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/memoria.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1387512778" xil_pn:in_ck="1498155893099681302" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1387512778">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ipcore_dir/memoria.v"/>
+      <outfile xil_pn:name="memoria_test_bench.v"/>
+      <outfile xil_pn:name="test_memoria.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1387512797" xil_pn:in_ck="1498155893099681302" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1043933421637361377" xil_pn:start_ts="1387512778">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="memoria_test_bench_beh.prj"/>
+      <outfile xil_pn:name="memoria_test_bench_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1387512804" xil_pn:in_ck="4347154388814288087" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6522563419209544418" xil_pn:start_ts="1387512797">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="memoria_test_bench_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1385584666" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3426186761945288706" xil_pn:start_ts="1385584666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1385584667" xil_pn:in_ck="3980669207300401169" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="237671172841948780" xil_pn:start_ts="1385584666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/memoria.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/memoria.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1385584667" xil_pn:in_ck="2234875324946384032" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1385584667">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1385584667" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8699900859163502528" xil_pn:start_ts="1385584667">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

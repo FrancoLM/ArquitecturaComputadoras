@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/ISE Projects/UART_Final/uart_rx.xst" -ofn "C:/ISE Projects/UART_Final/uart_rx.syr" 

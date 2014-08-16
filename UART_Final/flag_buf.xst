@@ -1,0 +1,5 @@
+set -tmpdir "C:/ISE Projects/UART_Final/xst/projnav.tmp"
+set -xsthdpdir "C:/ISE Projects/UART_Final/xst"
+elaborate
+-ifn flag_buf.prj
+-ifmt mixed

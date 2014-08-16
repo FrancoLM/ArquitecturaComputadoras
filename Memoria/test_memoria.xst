@@ -1,0 +1,5 @@
+set -tmpdir "C:/ISE Projects/Memoria/xst/projnav.tmp"
+set -xsthdpdir "C:/ISE Projects/Memoria/xst"
+elaborate
+-ifn test_memoria.prj
+-ifmt mixed
