@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module mod_m_counter
   #(parameter N=10,  //es 10, porque son 10 bits del contador
-				  M=325
+				  M=326  // le habiamos puesto 325...
 	)(
 	  input wire clk, reset,
 	  output wire max_tick,

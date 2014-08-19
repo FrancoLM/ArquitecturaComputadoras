@@ -58,8 +58,8 @@ module uart
   //FIFO RX
   fifo#( .B(DBIT), .W(FIFO_W)) fifo_rx_unit
 		(.clk(clk), .reset(reset), .rd(rd_uart),
-		.wr(rx_done_tick), .w_data(rx_data_out), .empty(rx_empty),
-		.full(), .r_data(r_data));  
+		.wr(rx_done_tick), .w_data(rx_data_out),
+		.empty(rx_empty), .full(), .r_data(r_data));  
 		//.full(), .r_data(rx_data_out));  
 	  
 	

@@ -2,14 +2,14 @@ Command line:
    tx_test_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  52397
+     -socket  56977
 
-Wed Dec 18 13:09:36 2013
+Tue Aug 19 14:01:45 2014
 
 
- Elaboration Time: 0.09375 sec
+ Elaboration Time: 0.109201 sec
 
- Current Memory Usage: 533.23 Meg
+ Current Memory Usage: 1134.35 Meg
 
  Total Signals          : 21
  Total Nets             : 27
@@ -21,9 +21,9 @@ Wed Dec 18 13:09:36 2013
  Total Scalar Nets and Variables : 228
 Total Line Count : 83
 
- Total Simulation Time: 0.15625 sec
+ Total Simulation Time: 0.140401 sec
 
- Current Memory Usage: 847.819 Meg
+ Current Memory Usage: 1134.35 Meg
 
-Wed Dec 18 13:10:07 2013
+Tue Aug 19 14:01:56 2014
 

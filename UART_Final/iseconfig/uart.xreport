@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2013-12-20T10:05:27</DateModified>
+  <DateModified>2014-08-19T10:42:56</DateModified>
   <ModuleName>uart</ModuleName>
   <SummaryTimeStamp>2013-12-18T10:18:36</SummaryTimeStamp>
-  <SavedFilePath>C:/ISE Projects/UART_Final/iseconfig/uart.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/ISE Projects/UART_Final\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/iseconfig/uart.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final\</ImplementationReportsDirectory>
   <DateInitialized>2013-12-14T18:51:58</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

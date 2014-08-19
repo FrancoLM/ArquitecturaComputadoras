@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6
+# Build 269223 by xbuild on Wed Jun  5 11:17:50 MDT 2013
+# Start of session at: Tue Aug 19 12:00:42 2014
+# Process ID: 4312
+# Log file: C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/pa.fromHdl.tcl

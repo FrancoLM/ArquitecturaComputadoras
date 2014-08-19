@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6
+# Build 269223 by xbuild on Wed Jun  5 11:17:50 MDT 2013
+# Start of session at: Tue Aug 19 12:00:42 2014
+# Process ID: 4312
+# Log file: C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/pa.fromHdl.tcl
+# create_project -name UART_Final -dir "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/planAhead_run_2" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 366.758 ; gain = 39.809
+# set_param project.pinAheadLayout yes
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'set_param' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final\planAhead_pid4312.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Aug 19 12:01:44 2014...
+INFO: [Common 17-83] Releasing license: PlanAhead

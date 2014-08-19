@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Franco\Documents\GitHub\ArquitecturaComputadoras\UART_Final\uart_test.ncd
+OUTFILE=C:\Users\Franco\Documents\GitHub\ArquitecturaComputadoras\UART_Final\uart_test.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Franco\Documents\GitHub\ArquitecturaComputadoras\UART_Final
+LICENSE=WebPack
+USER_INFO=210790732_0_0_241

@@ -1,27 +1,20 @@
-Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/ISE Projects/UART_Final/test_uart_2_isim_beh.exe -prj C:/ISE Projects/UART_Final/test_uart_2_beh.prj work.test_uart_2 work.glbl 
-ISim P.68d (signature 0x7708f090)
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/rx_test_isim_beh.exe -prj C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/rx_test_beh.prj work.rx_test work.glbl 
+ISim P.68d (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/ISE Projects/UART_Final/uart_tx.v" into library work
-Analyzing Verilog file "C:/ISE Projects/UART_Final/uart_rx.v" into library work
-Analyzing Verilog file "C:/ISE Projects/UART_Final/mod_m_counter.v" into library work
-Analyzing Verilog file "C:/ISE Projects/UART_Final/fifo.v" into library work
-Analyzing Verilog file "C:/ISE Projects/UART_Final/uart.v" into library work
-Analyzing Verilog file "C:/ISE Projects/UART_Final/test_uart_2.v" into library work
+Analyzing Verilog file "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/uart_rx.v" into library work
+Analyzing Verilog file "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/rx_test.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Compiling module mod_m_counter(N=9,M=326)
-Compiling module uart_rx(DBIT=8,SB_TICK=16)
-Compiling module fifo(B=8,W=2)
-Compiling module uart_tx(DBIT=8,SB_TICK=16)
-Compiling module uart
-Compiling module test_uart_2
+Fuse Memory Usage: 101324 KB
+Fuse CPU Usage: 295 ms
+Compiling module uart_rx
+Compiling module rx_test
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 7 Verilog Units
-Built simulation executable C:/ISE Projects/UART_Final/test_uart_2_isim_beh.exe
-Fuse Memory Usage: 43380 KB
-Fuse CPU Usage: 1702 ms
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/rx_test_isim_beh.exe
+Fuse Memory Usage: 105916 KB
+Fuse CPU Usage: 342 ms

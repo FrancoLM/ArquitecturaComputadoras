@@ -1,0 +1,195 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6
+# Build 269223 by xbuild on Wed Jun  5 11:17:50 MDT 2013
+# Start of session at: Tue Aug 19 12:00:21 2014
+# Process ID: 5944
+# Log file: C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/pa.fromHdl.tcl
+# create_project -name UART_Final -dir "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/planAhead_run_2" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 358.695 ; gain = 32.195
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "uart_test.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/uart_test.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {uart_tx.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {uart_rx.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {mod_m_counter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {fifo.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {uart.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {debounce.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {uart_test.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top uart_test $srcset
+# add_files [list {uart_test.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/uart_tx.v" into library work
+Analyzing Verilog file "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/uart_rx.v" into library work
+Analyzing Verilog file "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/mod_m_counter.v" into library work
+Analyzing Verilog file "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/fifo.v" into library work
+Analyzing Verilog file "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/uart.v" into library work
+Analyzing Verilog file "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/debounce.v" into library work
+Analyzing Verilog file "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/uart_test.v" into library work
+Loading clock regions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/uart_test.ucf]
+Finished Parsing UCF File [C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/uart_test.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 30e9869d
+open_rtl_design: Time (s): elapsed = 00:00:32 . Memory (MB): peak = 470.219 ; gain = 109.066
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS25 [get_ports [list {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {btn[2]} {btn[1]} {btn[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {led[7]} {led[6]} {led[5]} {led[4]} {led[3]} {led[2]} {led[1]} {led[0]}]]
+save_constraints
+set_property iostandard LVCMOS33 [get_ports [list {sseg[7]} {sseg[6]} {sseg[5]} {sseg[4]} {sseg[3]} {sseg[2]} {sseg[1]} {sseg[0]}]]
+save_constraints
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list reset]]
+set_property iostandard LVCMOS33 [get_ports [list rx]]
+save_constraints
+set_property iostandard LVCMOS33 [get_ports [list tx]]
+undo
+INFO: [Common 17-17] undo 'set_property iostandard LVCMOS33 [get_ports [list tx]]'
+undo
+INFO: [Common 17-17] undo 'set_property iostandard LVCMOS33 [get_ports [list rx]]'
+undo
+INFO: [Common 17-17] undo 'set_property iostandard LVCMOS33 [get_ports [list reset]]'
+undo
+INFO: [Common 17-17] undo 'set_property iostandard LVCMOS33 [get_ports [list clk]]'
+save_constraints
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+set_property iostandard LVCMOS33 [get_ports [list reset]]
+set_property iostandard LVCMOS33 [get_ports [list rx]]
+save_constraints
+set_property iostandard LVCMOS33 [get_ports [list tx]]
+set_property package_pin "" [get_ports [list  reset]]
+startgroup
+set_property package_pin N18 [get_ports rx]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports tx]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  reset]]
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin A8 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports {btn[0]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports {btn[1]}]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports {btn[2]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {led[0]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {led[1]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {led[2]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {led[3]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {led[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {led[5]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {led[6]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {led[7]}]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  {sseg[7]}]]
+startgroup
+set_property package_pin M13 [get_ports {sseg[0]}]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports {sseg[1]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {sseg[2]}]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports {sseg[3]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {sseg[4]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {sseg[5]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {sseg[6]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {sseg[7]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {an[0]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {an[2]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {an[3]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final\planAhead_pid5944.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Aug 19 12:38:28 2014...
+INFO: [Common 17-83] Releasing license: PlanAhead

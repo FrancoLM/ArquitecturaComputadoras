@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/ISE Projects/UART_Final/test_uart_2_isim_beh.exe" -prj "C:/ISE Projects/UART_Final/test_uart_2_beh.prj" "work.test_uart_2" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/rx_test_isim_beh.exe" -prj "C:/Users/Franco/Documents/GitHub/ArquitecturaComputadoras/UART_Final/rx_test_beh.prj" "work.rx_test" "work.glbl" 
